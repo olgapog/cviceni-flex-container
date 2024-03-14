@@ -16,9 +16,13 @@ body {
 
 .layout {
   min-height: 100vh;
+  display: flex;
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #f2f3ff;
   padding: 0.5rem;
   box-shadow: 1px 0px 8px #c2d1dd;
@@ -35,4 +39,7 @@ a {
 img {
   height: 1.5rem;
   width: 1.5rem;
+}
+.content {
+  display: flex;
 }
